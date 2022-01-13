@@ -1,0 +1,22 @@
+$bg-blue: navy;
+$color-white: white;
+$bg-violet: violet;
+$color-blue: navy;
+$bg-verde: darkcyan;
+$bg-acuamarina: aquamarine;
+$bg-blanco: white;
+$bg-crema: antiquewhite;
+
+$color-letra: (
+    oscuro: $color-blue,
+    claro: $color-white,
+);
+
+$color-fondo:(
+    azul: $bg-blue,
+    violeta: $bg-violet,
+    verde: $bg-verde,
+    blanco: $bg-blanco,
+    crema: $bg-crema,
+);
+

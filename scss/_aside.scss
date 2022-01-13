@@ -1,0 +1,13 @@
+@import "mapas";
+
+aside{
+    padding:20px ;
+    border-radius: 4px;
+    grid-area: sidebar;
+    background-color: $verde ;
+    h2{
+        font-size: 1.6rem;
+    }
+}
+
+
