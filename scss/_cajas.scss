@@ -1,15 +1,20 @@
 @import "mapas";
 
-.caja1, .caja2{
-    padding:20px ;
-    border: 4px;
-    color: $claro;
-    background-color: $violeta;
-}
-
-.caja1{
-    grid-area: caja1;
-}
-.caja2{
-    grid-area: caja2;
+.caja{
+    width: 100%;
+    padding:30px;
+    border: 1px solid black;
+    
+    .caja1{
+        @extend .caja;
+        color: $oscuro;
+        background-color: $acuamarina;
+        grid-area: caja1;
+        }
+    .caja2{
+        @extend .caja;
+        color: $claro;
+        background-color: $violeta;
+        grid-area: caja2;
+    }          
 }
