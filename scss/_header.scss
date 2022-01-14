@@ -1,12 +1,24 @@
 @import "mapas";
 
-.header{
-    background-color: $azul;
-    color: $claro;
-    grid-area: header;
+@mixin banner ($banner){
+    background-color: $banner;
     padding: 20px;
     border-radius: 4px;
     h1{
         font-size: 2.5rem;    
     }
 }
+
+.header{
+    grid-area: header;
+    color: $claro;
+    @include banner ($azul);
+}
+
+/*
+.footer{
+    grid-area: footer;
+    color: $oscuro;
+    @include banner ($acuamarina);
+}
+*/

@@ -1,9 +1,7 @@
 @import "mapas";
 
 .footer{
-    background-color: $azul;
-    color: $claro;
     grid-area: footer;
-    padding: 20px;
-    border-radius: 4px;
+    color: $oscuro;
+    @include banner ($acuamarina);
 }

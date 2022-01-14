@@ -2,19 +2,24 @@
 
 .caja{
     width: 100%;
-    padding:30px;
-    border: 1px solid black;
+    padding:20px;
+    grid-area: caja;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "caja1 caja2";
+    align-self: center;
     
     .caja1{
+        grid-area: caja1;
         @extend .caja;
         color: $oscuro;
         background-color: $acuamarina;
-        grid-area: caja1;
         }
     .caja2{
+        grid-area: caja2;
         @extend .caja;
         color: $claro;
         background-color: $violeta;
-        grid-area: caja2;
     }          
 }
